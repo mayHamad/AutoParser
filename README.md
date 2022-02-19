@@ -25,8 +25,8 @@ Autoruns aims to parse the auto startup location in Windows registry keys on off
 
 # Example
 Below command will pares with all plugins
-python3 Autoruns.py -p [path to folder of all registry hives] -a -l [path to results folder]
-The results will be in folder that specified in command and each plugin results will be in separate file.
+<br />python3 Autoruns.py -p [path to folder of all registry hives] -a -l [path to results folder]
+<br />The results will be in folder that specified in command and each plugin results will be in separate file.
 
 # Licence
 this project depends on:

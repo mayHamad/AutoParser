@@ -20,7 +20,7 @@ Autoruns aims to parse the auto startup location in Windows registry keys on off
 
 # How to use
 - Install Python 3
-Install script the dependences:
+<br />Install script the dependences:
 - pip3 install -r requirment.txt
 
 # Example

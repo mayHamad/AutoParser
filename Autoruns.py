@@ -37,7 +37,7 @@ def get_single_plugin(file,log,plugin):
                 result.write(d+"\n")
         result.close()
 
-"""print outpit for kuiper"""
+"""print output for kuiper"""
 def print_for_kuiper(file,log,plugin):
     if file is not None:
         defined_f = defind_single_file_logs(file,log)
@@ -71,7 +71,7 @@ def main(argv=None):
         print ("List of avaiable plugins:\t")
         print ("["+",".join(lst)+"]")
 
-    # parse  files with all plugin avaiable
+    # parsing with all plugin avaiable
     if args.all_plugins:
         path = args.path
         if path is not None:

@@ -28,3 +28,11 @@ Install the dependences:
 Below command will pares with all plugins
 python3 Autoruns.py -p [path to folder of all registry hives] -a -l [path to results folder]
 The results will be in folder that specified in command and each plugin results will be in separate file.
+
+#Licence
+this project depends on:
+- YARP https://github.com/msuhanov/yarp
+- RegSkewer https://github.com/muteb/RegSkewer
+
+#Refernces
+https://www.microsoftpressstore.com/articles/article.aspx?p=2762082&seqNum=2

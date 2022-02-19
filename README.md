@@ -19,9 +19,8 @@ Autoruns aims to parse the auto startup location in Windows registry keys on off
 |Winsock| Lists registered Winsock protocols and Winsock service providers. Malware often installs itself as a Winsock service provider | SYSTEM |
 
 # How to use
-Python
-- Python 3
-Install the dependences:
+- Install Python 3
+Install script the dependences:
 - pip3 install -r requirment.txt
 
 # Example
@@ -29,10 +28,10 @@ Below command will pares with all plugins
 python3 Autoruns.py -p [path to folder of all registry hives] -a -l [path to results folder]
 The results will be in folder that specified in command and each plugin results will be in separate file.
 
-#Licence
+# Licence
 this project depends on:
 - YARP https://github.com/msuhanov/yarp
 - RegSkewer https://github.com/muteb/RegSkewer
 
-#Refernces
+# Refernces
 https://www.microsoftpressstore.com/articles/article.aspx?p=2762082&seqNum=2

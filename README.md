@@ -21,3 +21,10 @@ Autoruns aims to parse the auto startup location in Windows registry keys on off
 # How to use
 Python
 - Python 3
+Install the dependences:
+- pip3 install -r requirment.txt
+
+# Example
+Below command will pares with all plugins
+python3 Autoruns.py -p [path to folder of all registry hives] -a -l [path to results folder]
+The results will be in folder that specified in command and each plugin results will be in separate file.

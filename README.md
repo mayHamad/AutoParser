@@ -1,6 +1,6 @@
 # Autoruns
 
-Autoruns aims to parse the auto startup location in Windows registry keys on offline system. It's consisting of 13 parsers. Each parser represents a category, as illustrated in below table.
+Autoruns aims to parse the auto startup locations in Windows Registry Keys on offline system. It's consisting of 14 parsers. Each parser represents a category, as illustrated in below table.
 
 | **Parser**        | **Discribtion**                               | **Registry hive**  |
 | :-------------: |:-----------------------------------------| :--------------:|

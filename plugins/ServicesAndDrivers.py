@@ -19,7 +19,7 @@ class ServicesAndDrivers():
         lst = []
         SKN_Driver = []
         SKN_service = []
-        "use the SYSTEM hive to get the result"
+        "use the SYSTEM && SOFTWARE hive to get the result"
         hive = get_hive(self.prim_hive,self.log_files)
         REG_Path_1 = u'ControlSet001\Services'
         REG_Path_2 = 'Microsoft\Windows NT\CurrentVersion\Font Drivers'

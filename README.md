@@ -15,6 +15,7 @@ Autoruns aims to parse the auto startup location in Windows registry keys on off
 |LSAsecurityProviders| Lists all DLLs that are loaded by Lsass.exe or Winlogon.exe and run as Local System. |   SYSTEM |
 |OfficeAddins| Lists add-ins and plug-ins registered to hook into documented interfaces for Access, Excel, Outlook, PowerPoint, and Word.      | SOFTWARE<br />NTUSER |
 |PrintMonitorDLLs| Lists all DLLs that are loaded into the Spooler service. | SYSTEM<br />SOFTWARE |
+|Services and Drivers| Lists services and drivers that load at boot up a system | SYSTEM<br />SOFTWARE |
 |Winogon| Lists entries that hook into Winlogon.exe, which manages the Windows interactive-logon user interface | SYSTEM<br />SOFTWARE<br />NTUSER |
 |Winsock| Lists registered Winsock protocols and Winsock service providers. Malware often installs itself as a Winsock service provider | SYSTEM |
 

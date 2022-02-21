@@ -52,6 +52,7 @@ class ServicesAndDrivers():
                             ("@timestamp",TS),
                             ("Launch String", "ControlSet001\Services"),
                             ("Category", "Driver"),
+                            ("Name", n),
                             ("Path", Path)
                         ])
                         lst.append(u"{}".format(json.dumps(record, cls=ComplexEncoder)))
@@ -79,6 +80,7 @@ class ServicesAndDrivers():
                                         ("Launch String", "ControlSet001\Services"),
                                         ("Category", "Service"),
                                         ("Path", Path),
+                                        ("Name", n),
                                         ("Service Dll", ServiceDll)
                                     ])
                                     lst.append(u"{}".format(json.dumps(record, cls=ComplexEncoder)))

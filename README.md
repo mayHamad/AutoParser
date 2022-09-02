@@ -1,8 +1,8 @@
 # Autoruns
 
-Autoruns aims to  parse the auto startup locations in Windows Registry Keys by collecting the hive keys. It's consisting of 14 parsers. Each parser represents a category, as illustrated in below table.
+Autoruns aims to  parse the auto startup locations in Windows Registry Keys by collecting the hive keys. It's consisting of 14 plugins. Each plugin represents a category, as illustrated in below table.
 
-| **Parser**        | **Discribtion**                               | **Registry hive**  |
+| **Plugin**        | **Discribtion**                               | **Registry hive**  |
 | :-------------: |:-----------------------------------------| :--------------:|
 |AppinitDLLs| Lists all DLLs that will be arbitrary loaded into each user mode process on the system.    | SYSTEM<br />SOFTWARE |
 |BootExecute| Lists Windows native-mode executables that are started by the Session Manager (Smss.exe) during system boot.      | SYSTEM |
